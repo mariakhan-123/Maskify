@@ -1,0 +1,53 @@
+/* Only layout & image adjustments — no color changes */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 50px;
+}
+
+/* Flex layout for logo with image + text */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Resize the logo image only */
+.logo-img {
+  width: 120px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+/* Keep your original text color and font style */
+.logo-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Keep your existing button layout */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav-buttons .btn {
+  padding: 8px 16px;        /* Increase button size */
+  font-size: 1rem;           /* Adjust text size */
+  border: 2px solid black;
+  border-radius: 6px;        /* Optional: Rounded corners */
+  cursor: pointer;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 10px; /* optional spacing */
+}
