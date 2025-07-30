@@ -44,6 +44,8 @@ export default function WebcamScanner() {
     const best = prediction.reduce((max, curr) =>
       curr.probability > max.probability ? curr : max
     );
+    console.log("Predicted label:", best.className);
+
     setTopPrediction({
       label: best.className,
       probability: (best.probability * 100).toFixed(2),

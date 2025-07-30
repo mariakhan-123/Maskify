@@ -2,7 +2,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Hero.css';
-
 export default function Hero() {
   const navigate = useNavigate();
 
@@ -22,5 +21,6 @@ export default function Hero() {
       </p>
       <button className="get-started" onClick={handleGetStarted}>Get Started</button>
     </section>
+    
   );
 }

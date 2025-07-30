@@ -1,10 +1,13 @@
 .about-container {
   max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 50px auto;
+  padding: 100px;
   font-family: 'Segoe UI', 'Inter', sans-serif;
   color: #1f2937; /* neutral dark gray */
   background-color: #f9fafb;
+    background: #fefefe url('../assets/Bg.jpg') no-repeat center center;
+    border: 1px solid grey;
+     border-radius: 5px;
 }
 
 .about-container h1 {

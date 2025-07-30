@@ -5,6 +5,7 @@ import About from './components/AboutUs';
 import Hero from './components/Hero';
 import InputImage from './components/ImageInputPage'; // <-- Add this line
 import Footer from './components/Footer';
+import HowItWorks from './components/HowItWorks';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/working" element={<HowItWorks />} />
         <Route path="/about" element={<About />} />
         <Route path="/input-image" element={<InputImage />} /> 
       </Routes>
